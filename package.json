@@ -1,0 +1,16 @@
+{
+  "name": "webdevelopmentproject",
+  "version": "1.0.0",
+  "description": "\"this project is used for Web Application using Node js ,CSS,HTML5\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"node Server.js"
+  },
+  "author": "Abarajith.S",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security"
+  }
+}
