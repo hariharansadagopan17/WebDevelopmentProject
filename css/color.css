@@ -1,0 +1,11 @@
+.link {
+    color: #FF0000;
+}
+
+/* CSS link color */
+.td {
+    font-style: bold;
+    border-spacing: 15px;
+}
+
+.body {background-color: aqua;}

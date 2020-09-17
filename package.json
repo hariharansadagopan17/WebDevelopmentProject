@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server":"node Server.js"
+    "server": "node Server.js"
   },
   "author": "Abarajith.S",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "http": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
   }
 }
