@@ -1,11 +1,17 @@
 .link {
     color: #FF0000;
+    font-size: 20px;
 }
 
 /* CSS link color */
 .td {
     font-style: bold;
     border-spacing: 15px;
+    font-size:50px;
 }
 
 .body {background-color: aqua;}
+
+.label {background-color:red ; font-size: 20px;}
+
+.h1 {background-color:black;font-size: 50px;}
