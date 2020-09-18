@@ -1,7 +1,7 @@
 var express = require('express');
 var path = require('path');
 var app = express();
-
+const bodyParser = require('body-parser');
 
 // define routes here..
 app.get('/', function (req, res) {
@@ -18,7 +18,9 @@ app.get('/HomePage.html',function(req,res){
 
 //app.use('/css',express.static(__dirname + '/css'));
 
-app.use('/css',express.static(path.join(__dirname + 'public/css')));
+app.use(bodyParser.urlencoded({extended: false}));
+app.use('/css',express.static(path.join(__dirname + '/public/css')));
+
 
 var server = app.listen(8083,function(){
 
