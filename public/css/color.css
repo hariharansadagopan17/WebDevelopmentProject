@@ -1,0 +1,25 @@
+/* Link element */
+.link {
+    color: #FF0000;
+    font-size: 20px;
+}
+
+/* CSS td color */
+.td {
+    font-style: bold;
+    border-spacing: 15px;
+    font-size:50px;
+}
+
+.link:hover {
+    background-color: yellow;
+    font-size:30px;
+}
+/* CSS body color */
+.body {background-color: aqua;}
+
+/* CSS label color */
+.label {background-color:red ; font-size: 20px;}
+
+/* CSS h1 tag color */
+.h1 {background-color:black;font-size: 50px;}
