@@ -16,20 +16,9 @@ app.get('/HomePage.html',function(req,res){
 
 //app.use(express.static(path.join(__dirname, '/')));
 
-app.use('/css',express.static(__dirname + '/css'));
+//app.use('/css',express.static(__dirname + '/css'));
 
-
-/*var server = http.createServer(function(request, response) {
-
-    response.writeHead(200, {'Content-Type': 'text/plain'});
-
-   response.write('Hello World');
-
-   response.end();
-
-});
-
-server.listen(8083);*/
+app.use('/css',express.static(path.join(__dirname + 'public/css')));
 
 var server = app.listen(8083,function(){
 
