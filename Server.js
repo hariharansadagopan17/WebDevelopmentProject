@@ -3,15 +3,25 @@ var path = require('path');
 var app = express();
 const bodyParser = require('body-parser');
 
+app.use(express.static('public'));
 // define routes here..
+
+
 app.get('/', function (req, res) {
-    res.sendFile(__dirname + '/MyProfile.html');
+    res.sendFile(__dirname + '/public/Sample.html');
 });
+
 
 app.get('/HomePage.html',function(req,res){
 
-    res.sendFile(__dirname + '/HomePage.html');
+    res.sendFile(__dirname + '/public/HomePage.html');
 });
+
+app.get('/MyProfile.html',function(req,res){
+
+    res.sendFile(__dirname + '/public/MyProfile.html');
+});
+
 
 
 //app.use(express.static(path.join(__dirname, '/')));
