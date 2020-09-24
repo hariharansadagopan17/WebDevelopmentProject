@@ -30,13 +30,46 @@
 .label {background-color:red ; font-size: 20px;}
 
 /* CSS h1 tag color */
-.h1 {background-color:black;font-size: 50px;}
+.h1 {background-color:black;
+    font-size: 50px;
+    
+    height: 500px;
+    margin-top: 0px;
+    border-bottom-width: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 200px;
+    padding-top: 200px;
+
+
+
+}
 
 .img {
    
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-      
+    height: 300px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    border-bottom-width: 100px;
+    width: 964px;
+}
+
+.top-container {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height:200px;
+}
+
+.middle-container {
+
+    height:200px;
+    
+    padding-bottom: 200px;
+    padding-top: 200px;
+
+}
+
+.Bottom-container {
+    height: 200px;
 }
